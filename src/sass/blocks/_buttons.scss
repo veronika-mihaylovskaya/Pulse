@@ -20,7 +20,7 @@
 
 @media (max-width: 767px) {
   .button {
-    &_main {
+    &_media {
       width: 270px;
     }
   }
@@ -37,6 +37,11 @@
 }
 
 @media (max-width: 479px) {
-
+  .button_media {
+    width: 125px;
+  }
+  .button_main {
+    width: 275px;
+  }
 }
 

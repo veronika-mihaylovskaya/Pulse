@@ -70,4 +70,23 @@
   }
 }
 
+@media (max-width: 479px)  {
+  .promo {
+    min-height: 500px;
+    &__icons {
+      display: none;
+    }
+  }
+  .header {
+    &__logo {
+      img {
+        width: 90%;
+      }
+    }
+    &__phone {
+      display: none;
+    }
+  }
+}
+
 
