@@ -13,3 +13,14 @@
     color: #FFFFFF;
   }
 }
+
+@media (max-width: 639px) {
+  .title {
+    &_left {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+}

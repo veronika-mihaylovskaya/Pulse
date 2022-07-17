@@ -9,6 +9,9 @@
   .benefits {
     padding: 70px 15px 0 15px;
   }
+  .consultation {
+    padding-left: 25px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -16,14 +19,13 @@
     &__oficial {
       font-size: 11px;
     }
-      span {
-        font-size: 14px;
-      }
+    span {
+      font-size: 14px;
+    }
     &__phone {
       font-size: 15px;
     }
   }
-}
   .promo {
     &__header {
       font-size: 38px;
@@ -37,6 +39,7 @@
       font-size: 28px;
     }
   }
+}
 
 @media (max-width: 639px) {
   .header {
@@ -67,6 +70,13 @@
       &__item {
         padding-bottom: 21px;
       }
+  }
+  .consultation {
+    min-height: 450px;
+    padding: 30px 15px;
+    &__descr {
+      display: none;
+    }
   }
 }
 
