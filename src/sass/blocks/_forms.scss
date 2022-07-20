@@ -1,4 +1,4 @@
-form {
+.feed-form {
   margin-top: 33px;
   width: 303px;
   display: flex;
@@ -21,13 +21,13 @@ form {
 }
 
 @media (max-width: 767px) {
-  form {
+  .feed-form {
     width: 404px;
   }
 }
 
 @media (max-width: 639px) {
-  form {
+  .feed-form {
     width: 100%;
     input {
       &:nth-child(3) {
@@ -35,5 +35,4 @@ form {
       }
     }
   }
-
 }
